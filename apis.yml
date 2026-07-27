@@ -1,7 +1,29 @@
 aid: inuru
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inuru.png
 name: INURU
-description: INURU is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  INURU (Inuru GmbH) is a Berlin-based printed-electronics company that
+  manufactures ultra-thin, flexible printed OLED lighting for smart packaging,
+  labels, apparel, and medical products. Its core product, the Elf (Embeddable
+  Luminous Film), combines an inkjet-printed OLED, a power source, and a
+  microchip into a paper-thin, waterproof film that can glow in any shape and
+  respond to touch, motion, or sound. Founded in 2016, Inuru operates the
+  automated "Dragon Factory" OLED production line in Wildau and works with
+  brands such as Coca-Cola and Marvel on interactive, sustainable
+  smart-packaging and medication-adherence labels. This is a company/provider
+  record in the API Evangelist network; Inuru is a hardware and smart-packaging
+  manufacturer and does not currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/inuru/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Printed Electronics
+- OLED
+- Smart Packaging
+- Hardware
+- Internet of Things
+- Sustainability
+- Manufacturing
+- Medical
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://inuru.de/
+  url: https://www.inuru.com/
+- type: Blog
+  url: https://www.inuru.com/about/news
+- type: Support
+  url: https://www.inuru.com/about/contact
+- type: PrivacyPolicy
+  url: https://www.inuru.com/about/imprint
+- type: DomainSecurity
+  url: security/inuru-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
